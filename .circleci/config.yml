@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run: mvn dependency:go-offline
       - deploy:
-          command: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle2/scripts/upload)
+          command: bash <(curl -s https://copilot-test.blackducksoftware.com/ci/circle2/scripts/upload)
